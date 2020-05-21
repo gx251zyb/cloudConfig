@@ -1,0 +1,9 @@
+server:
+  port: 7204
+spring:
+  application:
+    name: springcloud-confclient7204
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6001/eureka/
